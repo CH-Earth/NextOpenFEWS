@@ -1,0 +1,27 @@
+# Ignore files that are produced by running Delft-FEWS
+*.txt
+*.log
+*.old
+*.ini
+*.lnk
+*.jar
+running
+
+#Ignore files that are commonly downloaded
+*.grib2
+*.nc
+*.tif
+
+# Ignore folders that are produced by running Delft-FEWS
+DumpFiles/
+localDataStore/
+MapsCache/
+temp/
+Modules/
+
+
+# Ignore python related files
+__pycache__
+
+# Shortcut Files
+CanOpenFEWS.sh

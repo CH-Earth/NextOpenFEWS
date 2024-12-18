@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idMap xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/idMap.xsd" version="1.1">
+	<parameter internal="RSext" external="tisr"/>
+	<parameter internal="PA" external="sp"/>
+	<parameter internal="PC.sim" external="tp"/>
+	<parameter internal="TA.obs" external="t2m"/>
+	<parameter internal="PET.obs" external="pev"/>
+	<parameter internal="RS.sim" external="ssrd"/>
+	<!-- Updated variables for SUMMA-->
+	<!--Surface Level Parameters-->
+	<parameter internal="TA" external="t"/>
+	<parameter internal="XS" external="q"/>
+	<parameter internal="US" internalQualifier="U" external="u"/>
+	<parameter internal="US" internalQualifier="V" external="v"/>
+	<!--Pressure Level Parameters -->
+	<parameter internal="PR" external="mtpr"/>
+	<parameter internal="RS" external="msdwswrf"/>
+	<parameter internal="RL" external="msdwlwrf"/>
+	<!--Merged / Processed ERA5 Import -->
+	<parameter internal="PR" external="pptrate"/>
+	<parameter internal="TA" external="airtemp"/>
+	<parameter internal="PA" external="airpres"/>
+	<parameter internal="RL" external="LWRadAtm"/>
+	<parameter internal="RS" external="SWRadAtm"/>
+	<parameter internal="RH" external="spechum"/>
+	<parameter internal="US" external="windspd"/>
+	<enableOneToOneMapping/>
+</idMap>

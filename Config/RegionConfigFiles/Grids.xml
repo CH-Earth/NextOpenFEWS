@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) by Afdeling ICT (Stichting Deltares) -->
+<grids xmlns="http://www.wldelft.nl/fews" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wldelft.nl/fews http://fews.wldelft.nl/schemas/version1.0/grids.xsd">
+	<regular locationId="HRDPA">
+        <rows>1288</rows>
+        <columns>2538</columns>
+        <rotatedNorthPole>
+            <latitude>36.08852005004883</latitude>
+            <longitude>114.694885254</longitude>
+        </rotatedNorthPole>
+        <firstCellCenter>
+            <x>-14.7987060546875</x>
+            <y>16.67749786376953</y>
+            <z>0.0</z>
+        </firstCellCenter>
+        <xCellSize>0.0225</xCellSize>
+        <yCellSize>0.0225</yCellSize>
+    </regular>
+	<regular locationId="RDPA">	<!--New rotated Pole coordinate system-->
+		<rows>1045</rows>
+        <columns>1140</columns>
+		<rotatedNorthPole>
+			<latitude>31.758312225341797</latitude>
+            <longitude>-92.40298461914062</longitude> 
+		</rotatedNorthPole>
+        <firstCellCenter>
+            <x>-53.85858154296875</x>
+            <y>45.46516036987305</y>
+            <z>0.0</z>
+        </firstCellCenter>
+        <xCellSize>0.090298</xCellSize>
+        <yCellSize>0.090298</yCellSize>
+    </regular>
+	<regular locationId="HRDPS">
+		<rows>1290</rows>
+		<columns>2540</columns>
+		<rotatedNorthPole>
+			<latitude>36.08852005004883</latitude>
+			<longitude>-114.69488525390625</longitude>
+		</rotatedNorthPole>
+		<firstCellCenter>
+			<x>-14.82122802734375</x>
+			<y>16.69999885559082</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.0225</xCellSize>
+		<yCellSize>0.0225</yCellSize>
+	</regular>
+	<regular locationId="RDPS">
+		<rows>824</rows>
+		<columns>935</columns>
+		<polarStereographic>
+			<originLatitude>90.0</originLatitude>
+			<originLongitude>249.0</originLongitude>
+			<scaleAtOrigin>0.9330127018922193</scaleAtOrigin>
+			<equatorRadius>6371229.0</equatorRadius>
+			<poleRadius>6371229.0</poleRadius>
+		</polarStereographic>
+		<gridCorners>
+			<geoDatum>WGS 1984</geoDatum>
+			<upperLeft>
+				<x>147.57653032124486</x>
+				<y>47.289183285578574</y>
+				<z>0.0</z>
+			</upperLeft>
+			<lowerRight>
+				<x>-77.77846054786623</x>
+				<y>17.299437426457636</y>
+				<z>0.0</z>
+			</lowerRight>
+		</gridCorners>
+	</regular>
+	<regular locationId="GDPS">
+		<rows>1201</rows>
+		<columns>2400</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>180.0</x>
+			<y>90.00000762939453</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.15000002</xCellSize>
+		<yCellSize>0.15000001</yCellSize>
+	</regular>
+	<regular locationId="REPS">
+		<rows>960</rows>
+		<columns>908</columns>
+		<rotatedNorthPole>
+			<latitude>25.647279739379883</latitude>
+			<longitude>89.55551147460938</longitude>
+		</rotatedNorthPole>
+		<firstCellCenter>
+			<x>-47.710540771484375</x>
+			<y>35.54999923706055</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.09</xCellSize>
+		<yCellSize>0.09</yCellSize>
+	</regular>
+	<regular locationId="GEPS">
+		<rows>361</rows>
+		<columns>720</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>0.0</x>
+			<y>90.0</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.5</xCellSize>
+		<yCellSize>0.5</yCellSize>
+	</regular>
+	<irregular locationId="GLOBSNOW">
+		<rows>721</rows>
+		<columns>721</columns>
+		<csvFile>
+			<file>GlobSnow_SWE_L3A_v.1.0.csv</file>
+			<geoDatum>WGS 1984</geoDatum>
+			<x>%X%</x>
+			<y>%Y%</y>
+		</csvFile>
+	</irregular>
+	<regular locationId="SREF">
+		<rows>287</rows>
+		<columns>708</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>148.640594</x>
+			<y>85.301359</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.29516314</xCellSize>
+		<yCellSize>0.29511818</yCellSize>
+	</regular>
+	<regular locationId="GFS">
+		<rows>140</rows>
+		<columns>360</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-179.75</x>
+			<y>72.25</y>
+		</firstCellCenter>
+		<xCellSize>0.25</xCellSize>
+		<yCellSize>0.25</yCellSize>
+	</regular>
+	<regular locationId="HRRR">
+		<rows>1314</rows>
+		<!-- Number of latitude points -->
+		<columns>3253</columns>
+		<!-- Number of longitude points -->
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>156.436843</x>
+			<!-- Minimum longitude -->
+			<y>77.092892</y>
+			<!-- Maximum latitude -->
+		</firstCellCenter>
+		<xCellSize>0.0269946</xCellSize>
+		<!-- Longitude resolution -->
+		<yCellSize>0.027010296</yCellSize>
+		<!-- Latitude resolution -->
+	</regular>
+	<regular locationId="MRMS">
+		<rows>2200</rows>
+		<columns>5000</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-175.995</x>
+			<y>71.9950</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.01</xCellSize>
+		<yCellSize>0.01</yCellSize>
+	</regular>
+	<regular locationId="ERA5Yukon">
+		<rows>49</rows>
+		<columns>149</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-165.0</x>
+			<y>70.0</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.25</xCellSize>
+		<yCellSize>0.25</yCellSize>
+	</regular>
+	<regular locationId="ERA5Bow">
+		<rows>9</rows>
+		<columns>17</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-117.0</x>
+			<y>52.0</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.25</xCellSize>
+		<yCellSize>0.25</yCellSize>
+	</regular>
+	<regular locationId="ERA5Chena">
+		<rows>9</rows>
+		<columns>13</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-147.0</x>
+			<y>66.0</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.25</xCellSize>
+		<yCellSize>0.25</yCellSize>
+	</regular>
+	<regular locationId="ERA5Ross">
+		<rows>7</rows>
+		<columns>16</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-132.75</x>
+			<y>63.25</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.25</xCellSize>
+		<yCellSize>0.25</yCellSize>
+	</regular>
+	<regular locationId="NAM">
+		<rows>532</rows>
+		<!-- Number of latitude points -->
+		<columns>1517</columns>
+		<!-- Number of longitude points -->
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>143.597746</x>
+			<!-- Minimum longitude -->
+			<y>83.847322</y>
+			<!-- Maximum latitude -->
+		</firstCellCenter>
+		<xCellSize>0.101265825</xCellSize>
+		<!-- Longitude resolution -->
+		<yCellSize>0.10131315</yCellSize>
+		<!-- Latitude resolution -->
+	</regular>
+	<regular locationId="SNODAS">
+		<rows>4096</rows>
+		<columns>8192</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-130.5124969482422</x>
+			<y>58.22916793823242</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.00833333</xCellSize>
+		<yCellSize>0.00833333</yCellSize>
+	</regular>
+	<regular locationId="SNODASBow">
+		<rows>480</rows>
+		<columns>720</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-118.012501948</x>
+			<y>53.2291699382</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.00833333</xCellSize>
+		<yCellSize>0.00833333</yCellSize>
+	</regular>
+	<regular locationId="Snowcast_GWF">
+		<!--original pre 10-26-2022 <rows>262</rows>
+		<columns>241</columns>-->
+		<rows>265</rows>
+		<columns>616</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<gridCorners>
+			<!--	original pre 10-26-2022 <lowerLeft>
+				<x>-118.891692796615</x>
+				<y>46.570596864239</y>
+			</lowerLeft>-->
+			<lowerLeft>
+				<x>-131.995202834714</x>
+				<y>46.458059701484</y>
+			</lowerLeft>
+			<!--original pre 10-26-2022 <upperRight>
+				<x>-113.099</x>
+				<y>52.868</y>
+			</upperRight>-->
+			<upperRight>
+				<x>-109.8192</x>
+				<y>55.99806</y>
+			</upperRight>
+		</gridCorners>
+		<!--<firstCellCenter>
+			<x>-118.891692796615</x>
+			<y>46.570596864239</y>
+		</firstCellCenter>
+		<xCellSize>0.024034932267</xCellSize>
+		<yCellSize>0.024034932267</yCellSize>-->
+	</regular>
+	<regular locationId="SnowcastHighRes">
+		<rows>4768</rows>
+		<columns>11096</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-131.99420281482176</x>
+			<y>55.997059647864596</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.002000039783617576</xCellSize>
+		<yCellSize>0.0020001072380545263</yCellSize>
+	</regular>
+	<regular locationId="ECCCRadarComposite">
+		<rows>5584</rows>
+		<columns>6525</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-170.323855000000008</x>
+			<y>67.1906100000000066</y>
+		</firstCellCenter>
+		<xCellSize>0.01844000000000000153</xCellSize>
+		<yCellSize>0.009000000000000001055</yCellSize>
+	</regular>
+	<regular locationId="BowRadarGrid">
+		<rows>512</rows>
+		<columns>512</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-119.8720150000000046</x>
+			<y>53.2046100000000024</y>
+		</firstCellCenter>
+		<xCellSize>0.01844000000000000153</xCellSize>
+		<yCellSize>0.009000000000000001055</yCellSize>
+	</regular>
+	<regular locationId="BowGrid">
+		<rows>189</rows>
+		<columns>342</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-116.5291666667244</x>
+			<y>51.7291666666402</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.00833333</xCellSize>
+		<yCellSize>0.00833333</yCellSize>
+	</regular>
+	<regular locationId="ModelGrid">
+		<rows>189</rows>
+		<columns>342</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-116.5291666667244</x>
+			<y>51.7291666666402</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.00833333</xCellSize>
+		<yCellSize>0.00833333</yCellSize>
+	</regular>
+	<regular locationId="NSRPS">
+		<rows>1767</rows>
+		<columns>1510</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-121.99503311258277</x>
+			<y>61.99575551782682</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.00993377</xCellSize>
+		<yCellSize>0.00848896</yCellSize>
+	</regular>
+	<!--	<regular locationId="NSRPS">
+		<rows>1800</rows>
+		<columns>1800</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-121.99583333333334</x>
+			<y>61.99583333333334</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.00833333</xCellSize>
+		<yCellSize>0.00833333</yCellSize>
+	</regular>-->
+	<regular locationId="NSRPS_reps">
+		<rows>1200</rows>
+		<columns>2640</columns>
+		<geoDatum>WGS 1984</geoDatum>
+		<firstCellCenter>
+			<x>-94.99583333333334</x>
+			<y>50.99583333333334</y>
+			<z>0.0</z>
+		</firstCellCenter>
+		<xCellSize>0.00833333</xCellSize>
+		<yCellSize>0.00833333</yCellSize>
+	</regular>
+</grids>
